@@ -1,0 +1,16 @@
+<suite name="Homework" verbose="1" parallel="methods" thread-count="5">
+    <test name="Test Class">
+        <groups>
+            <run>
+            <inlcude name = "addition"></inlcude>
+            <inlcude name = "subtraction"></inlcude>
+            <inlcude name = "multiplication"></inlcude>
+            <inlcude name = "divison"></inlcude>
+            <inlcude name = "modularDivision"></inlcude>
+            </run>
+        </groups>>
+        <classes>
+            <class name = "homework.TestClass"></class>
+        </classes>
+    </test>
+</suite>
